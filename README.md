@@ -1,15 +1,19 @@
-<h1 align=center>Rate-Limiting Nullifier circuits in Circom</h1>
+<h1 align=center>Rate-Limiting Nullifier circuits in Circom (modified for erc-5564)</h1>
 <p align="center">
-    <img src="https://github.com/Rate-Limiting-Nullifier/rln-circuits-v2/workflows/Test/badge.svg" width="110">
+    <img src="https://github.com/rymnc/circom-rln-erc5564/workflows/Test/badge.svg" width="110">
 </p>
 
 <div align="center">
 
-*The project was audited by Veridise, yAcademy fellows and internally.*
+*The project is not audited*
 
 </div>
 
 ___
+
+## Usage
+
+To be used in conjunction with the stealth commitment scheme described by [erc-5564](https://github.com/Nerolation/EIP-Stealth-Address-ERC), implemented in [erc-5564-bn254](https://github.com/rymnc/erc-5564-bn254)
 
 ## What's RLN?
 
@@ -24,3 +28,7 @@ The core parts of RLN are:
 ---
 
 To learn more on RLN and how it works - check out [documentation](https://rate-limiting-nullifier.github.io/rln-docs/).
+
+## Attribution
+
+The public key derivation is based on [cassiopeia](https://github.com/galletas1712/cassiopeia)
